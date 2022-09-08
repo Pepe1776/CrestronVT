@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='ISO-8859-1' ?>
+<File Type='Manifest' Version='6.1.0' ObjectDisplayList='4'>
+<Project FileName='iPhone.zip' Size='1891418' Build='20220219165353'>
+<Sources>
+<Source FileName='iPhone.xml' Size='538' Type='Application' Build='20220219165353' MinimumSGVersion='2.11.05.00' />
+</Sources>
+</Project>
+</File>

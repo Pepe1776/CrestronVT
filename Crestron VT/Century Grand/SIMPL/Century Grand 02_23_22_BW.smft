@@ -1,0 +1,34 @@
+<Device Model="CP3">
+   <Network Type="Cresnet" Id="01"/>
+   <Network Type="Ethernet" Id="02">
+      <Device Model="Crestron_App" DeviceId="03" Name="[ipad.a]Crestron App - Main iPad"/>
+      <Device Model="Crestron_App" DeviceId="04" Name="[ipad.b]Crestron App - Bar Left **IP ID NOT WORKING**"/>
+      <Device Model="Crestron_App" DeviceId="05" Name="[ipad.c] Crestron App - Bar Middle **TEMP BAR LEFT**"/>
+      <Device Model="Crestron_App" DeviceId="06" Name="[ipad.d] Crestron App - Bar Right"/>
+      <Device Model="Crestron_App" DeviceId="07" Name="[ipad.e]Crestron App - Grey Hen"/>
+      <Device Model="Crestron_App" DeviceId="08" Name="[ipad.f] Crestron App - Train **NO LONGER ACTIVE**"/>
+      <Device Model="Crestron_App" DeviceId="11" Name="[iphone.a] Crestron App - Rich's iPhone (And Alex)"/>
+      <Device Model="Crestron_App" DeviceId="12" Name="[iphone.b ]Crestron App - Jason's iPhone (And Steve)"/>
+      <Device Model="Crestron_App" DeviceId="13" Name="[iphone.c] Crestron App - House iPhone"/>
+      <Device Model="Crestron_App" DeviceId="14" Name="[iphone.d] Crestron App - Aevio"/>
+      <Device Model="Core3 UI XPanel" DeviceId="16" Name="[xpan.a] XPanel 2.0 Smart Graphics - Rich's Laptop"/>
+      <Device Model="CEN-GWEXER" DeviceId="55" Name="CEN-GWEXER - Train Effects">
+         <Network Type="RF">
+            <Device Model="CLW-DIMEX-P" DeviceId="03" Name="CLW-DIMEX-P - Greyhen Lights"/>
+            <Device Model="CLW-SWEX-P" DeviceId="04" Name="CLW-SWEX-P - Train Top Right"/>
+            <Device Model="CLW-SWEX-P" DeviceId="05" Name="CLW-SWEX-P - Train Bottom Left"/>
+            <Device Model="CLW-SWEX-P" DeviceId="06" Name="CLW-SWEX-P - Train Bottom Right"/>
+            <Device Model="CLW-SWEX-P" DeviceId="07" Name="CLW-SWEX-P - Train Fog Machine"/>
+            <Device Model="CLW-SWEX-P" DeviceId="09" Name="CLW-SWEX-P - Train Top Left"/>
+            <Device Model="CLW-DIMEX-P" DeviceId="0A" Name="CLW-DIMEX-P - Platform Track Lights"/>
+         </Network>
+      </Device>
+      <Device Model="DSP-860" DeviceId="61" Name="DSP-860 #1 (Top)"/>
+      <Device Model="DSP-860" DeviceId="62" Name="DSP-860 #2 (Bottom)"/>
+      <Device Model="DSP-860" DeviceId="63" Name="DSP-860 - Train Effects"/>
+      <Device Model="Autonomic MMS-1e" DeviceId="71" Name="Autonomic MMS-1e - Pandora"/>
+      <Device Model="Autonomic MMS-1e" DeviceId="72" Name="Autonomic MMS-1e - Classic Swing Jazz"/>
+      <Device Model="Autonomic MMS-1e" DeviceId="73" Name="Autonomic MMS-1e - Modern Electro Swing"/>
+      <Device Model="Autonomic MMS-1e" DeviceId="74" Name="Autonomic MMS-1e - Theatrical"/>
+   </Network>
+</Device>

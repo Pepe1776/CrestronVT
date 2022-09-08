@@ -1,0 +1,161 @@
+<DSP128SGExportFile DeviceType="DSP-860" CreationDate="1/7/2020 9:35:00 AM" LastModifiedDate="1/7/2020 9:35:00 AM">
+  <Comments>
+  </Comments>
+  <ExportedObjects>
+    <SGObject Type="Analog" ReadOnly="False">
+      <DSPParameterId>Aout 1 OutTrim Level</DSPParameterId>
+      <ControlTitle>Train Sounds Master</ControlTitle>
+      <ObjectAddress IsEQObject="False" IsVUMeter="False" IsVUMeterInverted="False">
+        <DSPObjInst ToolID="AnalogOut.1.1" FWID="131329" />
+        <DSPObjectType ToolID="OutTrim" FWID="28" />
+        <ParamIndex ToolID="Level" FWID="2" />
+      </ObjectAddress>
+      <ParameterInfo Type="Float">
+        <MinVal>-80</MinVal>
+        <MaxVal>20</MaxVal>
+        <Resolution>1</Resolution>
+        <units>dB</units>
+        <DefaultVal>0</DefaultVal>
+        <IsReadOnly>False</IsReadOnly>
+      </ParameterInfo>
+    </SGObject>
+    <SGObject Type="Digital" ReadOnly="False">
+      <DSPParameterId>Aout 1 OutTrim Mute</DSPParameterId>
+      <ControlTitle>Train Sounds Master Mute</ControlTitle>
+      <ButtonLabel>Mute</ButtonLabel>
+      <ObjectAddress IsEQObject="False" IsVUMeter="False" IsVUMeterInverted="False">
+        <DSPObjInst ToolID="AnalogOut.1.1" FWID="131329" />
+        <DSPObjectType ToolID="OutTrim" FWID="28" />
+        <ParamIndex ToolID="MuteOn" FWID="0" />
+      </ObjectAddress>
+      <ParameterInfo Type="Bool">
+        <DefaultVal>False</DefaultVal>
+        <IsReadOnly>False</IsReadOnly>
+      </ParameterInfo>
+    </SGObject>
+    <SGObject Type="Analog" ReadOnly="False">
+      <DSPParameterId>Ain 1 InTrim Level</DSPParameterId>
+      <ControlTitle>Track Noise 2</ControlTitle>
+      <ObjectAddress IsEQObject="False" IsVUMeter="False" IsVUMeterInverted="False">
+        <DSPObjInst ToolID="AnalogIn.1.6" FWID="65799" />
+        <DSPObjectType ToolID="InTrim" FWID="27" />
+        <ParamIndex ToolID="Level" FWID="2" />
+      </ObjectAddress>
+      <ParameterInfo Type="Float">
+        <MinVal>-80</MinVal>
+        <MaxVal>20</MaxVal>
+        <Resolution>1</Resolution>
+        <units>dB</units>
+        <DefaultVal>0</DefaultVal>
+        <IsReadOnly>False</IsReadOnly>
+      </ParameterInfo>
+    </SGObject>
+    <SGObject Type="Digital" ReadOnly="False">
+      <DSPParameterId>Ain 1 InTrim Mute</DSPParameterId>
+      <ControlTitle>Track Noise 2 Mute</ControlTitle>
+      <ButtonLabel>Mute</ButtonLabel>
+      <ObjectAddress IsEQObject="False" IsVUMeter="False" IsVUMeterInverted="False">
+        <DSPObjInst ToolID="AnalogIn.1.6" FWID="65799" />
+        <DSPObjectType ToolID="InTrim" FWID="27" />
+        <ParamIndex ToolID="MuteOn" FWID="0" />
+      </ObjectAddress>
+      <ParameterInfo Type="Bool">
+        <DefaultVal>False</DefaultVal>
+        <IsReadOnly>False</IsReadOnly>
+      </ParameterInfo>
+    </SGObject>
+    <SGObject Type="Analog" ReadOnly="False">
+      <DSPParameterId>Ain 2 InTrim Level</DSPParameterId>
+      <ControlTitle>Brake Noise</ControlTitle>
+      <ObjectAddress IsEQObject="False" IsVUMeter="False" IsVUMeterInverted="False">
+        <DSPObjInst ToolID="AnalogIn.2.6" FWID="66055" />
+        <DSPObjectType ToolID="InTrim" FWID="27" />
+        <ParamIndex ToolID="Level" FWID="2" />
+      </ObjectAddress>
+      <ParameterInfo Type="Float">
+        <MinVal>-80</MinVal>
+        <MaxVal>20</MaxVal>
+        <Resolution>1</Resolution>
+        <units>dB</units>
+        <DefaultVal>0</DefaultVal>
+        <IsReadOnly>False</IsReadOnly>
+      </ParameterInfo>
+    </SGObject>
+    <SGObject Type="Digital" ReadOnly="False">
+      <DSPParameterId>Ain 2 InTrim Mute</DSPParameterId>
+      <ControlTitle>Brake Noise Mute</ControlTitle>
+      <ButtonLabel>Mute</ButtonLabel>
+      <ObjectAddress IsEQObject="False" IsVUMeter="False" IsVUMeterInverted="False">
+        <DSPObjInst ToolID="AnalogIn.2.6" FWID="66055" />
+        <DSPObjectType ToolID="InTrim" FWID="27" />
+        <ParamIndex ToolID="MuteOn" FWID="0" />
+      </ObjectAddress>
+      <ParameterInfo Type="Bool">
+        <DefaultVal>False</DefaultVal>
+        <IsReadOnly>False</IsReadOnly>
+      </ParameterInfo>
+    </SGObject>
+    <SGObject Type="Analog" ReadOnly="False">
+      <DSPParameterId>Ain 3 InTrim Level</DSPParameterId>
+      <ControlTitle>Track Noise 1</ControlTitle>
+      <ObjectAddress IsEQObject="False" IsVUMeter="False" IsVUMeterInverted="False">
+        <DSPObjInst ToolID="AnalogIn.3.6" FWID="66311" />
+        <DSPObjectType ToolID="InTrim" FWID="27" />
+        <ParamIndex ToolID="Level" FWID="2" />
+      </ObjectAddress>
+      <ParameterInfo Type="Float">
+        <MinVal>-80</MinVal>
+        <MaxVal>20</MaxVal>
+        <Resolution>1</Resolution>
+        <units>dB</units>
+        <DefaultVal>0</DefaultVal>
+        <IsReadOnly>False</IsReadOnly>
+      </ParameterInfo>
+    </SGObject>
+    <SGObject Type="Digital" ReadOnly="False">
+      <DSPParameterId>Ain 3 InTrim Mute</DSPParameterId>
+      <ControlTitle>Track Noise 1</ControlTitle>
+      <ButtonLabel>Mute</ButtonLabel>
+      <ObjectAddress IsEQObject="False" IsVUMeter="False" IsVUMeterInverted="False">
+        <DSPObjInst ToolID="AnalogIn.3.6" FWID="66311" />
+        <DSPObjectType ToolID="InTrim" FWID="27" />
+        <ParamIndex ToolID="MuteOn" FWID="0" />
+      </ObjectAddress>
+      <ParameterInfo Type="Bool">
+        <DefaultVal>False</DefaultVal>
+        <IsReadOnly>False</IsReadOnly>
+      </ParameterInfo>
+    </SGObject>
+    <SGObject Type="Analog" ReadOnly="False">
+      <DSPParameterId>Ain 4 InTrim Level</DSPParameterId>
+      <ControlTitle>Train Chug</ControlTitle>
+      <ObjectAddress IsEQObject="False" IsVUMeter="False" IsVUMeterInverted="False">
+        <DSPObjInst ToolID="AnalogIn.4.6" FWID="66567" />
+        <DSPObjectType ToolID="InTrim" FWID="27" />
+        <ParamIndex ToolID="Level" FWID="2" />
+      </ObjectAddress>
+      <ParameterInfo Type="Float">
+        <MinVal>-80</MinVal>
+        <MaxVal>20</MaxVal>
+        <Resolution>1</Resolution>
+        <units>dB</units>
+        <DefaultVal>0</DefaultVal>
+        <IsReadOnly>False</IsReadOnly>
+      </ParameterInfo>
+    </SGObject>
+    <SGObject Type="Digital" ReadOnly="False">
+      <DSPParameterId>Ain 4 InTrim Mute</DSPParameterId>
+      <ControlTitle>Train Mute</ControlTitle>
+      <ButtonLabel>Mute</ButtonLabel>
+      <ObjectAddress IsEQObject="False" IsVUMeter="False" IsVUMeterInverted="False">
+        <DSPObjInst ToolID="AnalogIn.4.6" FWID="66567" />
+        <DSPObjectType ToolID="InTrim" FWID="27" />
+        <ParamIndex ToolID="MuteOn" FWID="0" />
+      </ObjectAddress>
+      <ParameterInfo Type="Bool">
+        <DefaultVal>False</DefaultVal>
+        <IsReadOnly>False</IsReadOnly>
+      </ParameterInfo>
+    </SGObject>
+  </ExportedObjects>
+</DSP128SGExportFile>

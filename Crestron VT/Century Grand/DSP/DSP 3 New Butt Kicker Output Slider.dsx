@@ -1,0 +1,37 @@
+<DSP128SGExportFile DeviceType="DSP-860" CreationDate="2/26/2020 11:02:47 AM" LastModifiedDate="2/26/2020 11:02:47 AM">
+  <Comments>
+  </Comments>
+  <ExportedObjects>
+    <SGObject Type="Analog" ReadOnly="False">
+      <DSPParameterId>AXout 1 OutTrim Level</DSPParameterId>
+      <ControlTitle>Train Buttkicker Volume</ControlTitle>
+      <ObjectAddress IsEQObject="False" IsVUMeter="False" IsVUMeterInverted="False">
+        <DSPObjInst ToolID="AuxOut.1.1" FWID="262401" />
+        <DSPObjectType ToolID="OutTrim" FWID="28" />
+        <ParamIndex ToolID="Level" FWID="2" />
+      </ObjectAddress>
+      <ParameterInfo Type="Float">
+        <MinVal>-80</MinVal>
+        <MaxVal>20</MaxVal>
+        <Resolution>1</Resolution>
+        <units>dB</units>
+        <DefaultVal>0</DefaultVal>
+        <IsReadOnly>False</IsReadOnly>
+      </ParameterInfo>
+    </SGObject>
+    <SGObject Type="Digital" ReadOnly="False">
+      <DSPParameterId>AXout 1 OutTrim Mute</DSPParameterId>
+      <ControlTitle>Train Buttkicker Mute</ControlTitle>
+      <ButtonLabel>Mute</ButtonLabel>
+      <ObjectAddress IsEQObject="False" IsVUMeter="False" IsVUMeterInverted="False">
+        <DSPObjInst ToolID="AuxOut.1.1" FWID="262401" />
+        <DSPObjectType ToolID="OutTrim" FWID="28" />
+        <ParamIndex ToolID="MuteOn" FWID="0" />
+      </ObjectAddress>
+      <ParameterInfo Type="Bool">
+        <DefaultVal>False</DefaultVal>
+        <IsReadOnly>False</IsReadOnly>
+      </ParameterInfo>
+    </SGObject>
+  </ExportedObjects>
+</DSP128SGExportFile>
